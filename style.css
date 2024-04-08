@@ -1,5 +1,30 @@
-body {
+header {
+  background: black;
+  color: purple;
+  padding: 0 100px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa';
+  font-size: 32px;
+}
 
+body {
+  background: black;
+  color: purple;
+  padding: 0 100px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa';
+  font-size: 16px;
+}
+
+iframe {
   background: black;
   color: purple;
   padding: 0 100px;
