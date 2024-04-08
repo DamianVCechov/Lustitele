@@ -29,12 +29,12 @@ body {
 iframe {
   #width: 47vw;
   #height: 125vh;
-  width: 100%;
+  #width: 100%;
   #height: 100%;
   border-style: none;
 }
 
 div {
-  width: 100%;
+  width: 611px;
   height: 100%;
 }
