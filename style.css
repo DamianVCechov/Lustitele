@@ -2,32 +2,12 @@ body {
 
   background: black;
   color: purple;
-
   padding: 0 100px;
-
   margin: 0;
-
-  #height: 100vh;
-
+  height: flex;
   display: flex;
-
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Comfortaa';
-}
-
-@font-face {
-        font-family: 'Comfortaa';
-	font-size: 32px;
-        src: url('https://fonts.googleapis.com/css?family=Comfortaa');
-}
-
-iframe {
- width: 100vw;
- background: black;
-}
-
-#result {
-  color: white;
 }
