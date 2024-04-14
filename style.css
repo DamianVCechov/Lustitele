@@ -39,8 +39,7 @@ iframe {
 div {
   width: 612px;
   height: 100%;
-  frameborder: 0;
-		border: 0;
+  border: 0;
   border-color: black;
   background-color: black;
 }
