@@ -1,45 +1,61 @@
+<!DOCTYPE html>
 <html lang="cs">
-   <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-	<link href="icon/fav.ico" rel="shortcut icon" type="image/x-icon">
-   </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Naprosto nejúžasnější tabulky </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&family=Square+Peg&display=swap">	
+		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+		<link rel="manifest" href="/icon/site.webmanifest">
+		<link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+		<meta name="theme-color" content="#00000000">
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/resp.css" rel="stylesheet">
+	</head>
 
-   <header class="header">
-		<h2>Nejlepší tabulky ve vesmíru</h2>
-		<h4>a přilehlých dimenzích</h4>
-   </header>
-   <body>
-	<p>Tabulka vítězů</p>
-	<table>
-		<tr>
-		    <th>Den</th>
-   		    <th>Nick</th>
-		    <th>Čas</th>
-		    <th>Řádky</th>
-   		    <th>3</th>
-		    <th>Výsledek</th>
-		</tr>
+	<body class="content">
+		<header class="header">
+			<h1>Nejlepší tabulky ve vesmíru</h1>
+			<h2>a přilehlých dimenzích</h2>
+		</header>
 
-	<?php include 'php/vitezna.php'; ?>
+		<main class="main">
+			 <p id="formular"><a  href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank" >Formulář k zápisu</a></p>
+			 <p id="archiv"><a  href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank"> Kompletní archiv Vašich odpovědí i s poznámkami</a></p>
 
-	</table>
-<br>
-<br>
-	<p>Průběžná tabulka</p>	
-	<table>
-		<tr>
-		    <th>Den</th>
-   		    <th>Nick</th>
-		    <th>Čas</th>
-		    <th>Řádky</th>
-   		    <th>3</th>
-		    <th>Výsledek</th>
-		</tr>
 
-	<?php include 'php/prubezna.php'; ?>
+			<script src="js/countdown.js"> </script>
 
-	</table>
-   </body>
+	    		<div class="tabulky">
+				<?php include "php/tabulky.php"; ?>
+			</div>
+
+			<p id="poznamka"> Místo pro vybrané poznámky a citace nejen @PolulinaP ;-) </p>
+
+		</main>
+
+		<footer class="footer"> <p> Sestavili pro Vás</p>
+					<a  href="https://x.com/NocniDuha" alt="Vždy úžasná a úchvatná" target="_blank" > Noční Duha </a>
+										a
+					<a  href="https://x.com/DamianVCechov" alt="Démonský a věčně zmatený" target="_blank" > Damian V. Čechov </a>
+					<p> &copy; <?php echo date("Y") . "\n" ?> </p>
+
+		<!-- Jen na zkoušku, brzy jej odstraním -->
+
+					<p><br><br><br><br><br><br>
+					<a href="http://www.web4u.cz/cs/pocitadlo" target="_blank">
+					<img src="http://www.web4u.cz/cs/pocitadlo/obrazek/name/Drban" alt="Pocitadlo Web4U.cz" />
+					</a>
+					</p>
+
+		</footer>
+
+	</body>
 </html>

@@ -1,0 +1,98 @@
+body {
+   width: 95vw;
+   background-color: black;
+   color: #f4ddba;
+}
+
+/* Nastaveni flex */
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main, .header, .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabulky {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: black;
+}
+
+/* Dalsi formatovani, hlavne textu */
+.footer {
+   display: inline-block;
+   text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0px;
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+}
+
+
+/* Formatovani tabulek */ 
+caption {
+  color: #f4ddba;
+  font-style: oblique;
+  font-family: "Quintessential", serif;
+ }
+
+thead, tbody {
+  background-color: #9bdafa;
+  text-align: center;
+  }
+
+.Zlato {
+  background-color: #ffcc66;
+  }
+
+.Stribro {
+  background-color: #d1d1e0;
+}
+
+.Bronz {
+  background-color: #ffbb99;
+}
+
+.Brambora {
+  background-color: #d4905d;
+}
+
+.Lucerna {
+  background-color: #ff8080;
+}
+
+
+/* Zmena po najeti mysi */
+tr:hover {
+   background-color: #9bdafa;
+   filter: brightness(150%);
+}
+
+/* Zmena barvy odkazu */
+a:link {
+   color: cyan;
+}
+
+a:visited {
+   color: cyan;
+}
+
+a:hover {
+   color: magenta;
+}
+

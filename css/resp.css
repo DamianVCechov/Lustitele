@@ -1,0 +1,57 @@
+/* nastaveni pro sirku  minimalne 900 px */
+@media screen and (min-width: 900px) {
+  table {
+    font-size: 16px;
+    height: fit-content;
+  }
+
+  caption {
+    font-size: 25px;
+  }
+
+  thead {
+    font-size: 20px
+  }
+
+  tbody, tfoot {
+    font-size: 16px;
+  }
+
+  #Prubezna {
+    margin-left: 20px;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+}
+
+/* nastaveni pro sirku maximalne 899px */
+@media screen and (max-width: 899px) {
+  table {
+  width: 85vW;
+  font-size: 14px;
+}
+
+  caption {
+    font-size: 20px;
+  }
+
+.tabulky {
+   flex-direction: column;
+}
+
+  #Prubezna {
+    margin-top: 20px;
+  }
+
+  p, .footer {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    table {
+      width: 90vw;
+    }
+}
