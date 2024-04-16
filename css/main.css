@@ -1,0 +1,162 @@
+﻿body {
+   width: 95vw;
+   background-color: black;
+   color: #f4ddba;
+}
+
+/* Nastaveni flex */
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.main, .header, .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabulky {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: black;
+  font-family: "Comfortaa";
+  font-style: normal;
+}
+
+/* Dalsi formatovani, hlavne textu */
+.footer {
+   display: inline-block;
+   text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0px;
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  text-align: center;
+}
+
+/* Formatovani tabulek */ 
+caption {
+  color: #f4ddba;
+  font-style: oblique;
+  font-family: "Quintessential", serif;
+}
+
+thead {
+  background-color: transparent;
+  color: #f4ddba;
+  font-family: "Quintessential", serif;
+  font-style: normal;
+}
+
+tbody {
+  background-color: #bfbfbf;
+  text-align: center;
+  font-family: "Comfortaa";
+  font-style: normal; 
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+/* Zmena po najeti mysi */
+tbody tr:hover {
+   background-color: #9bdafa;
+   filter: brightness(150%);
+}
+/*
+td:nth-child(2) {
+   font-style: oblique;
+}*/
+
+td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+   color: black;
+}
+
+/* Zmena barvy odkazu */
+a:link {
+   color: cyan;
+   text-align: center;
+}
+
+a:visited {
+   color: cyan;
+}
+
+a:hover {
+   color: magenta;
+}
+
+/* Ovládání menu odkazů*/
+
+#Menu  > p {
+   font-size: 150%;
+}
+
+#Odkazy {
+   display: none;
+   text-align: center;
+}
+
+li {
+   list-style-type: none;
+}
+
+
+.Zlato {
+   background-color: #ffcc66;
+   font-size: 115%;
+}
+
+.Stribro {
+   background-color: #d1d1e0;
+   font-size: 110%; 
+}
+
+.Bronz {
+   background-color: #ffbb99;
+   font-size: 105%; 
+}
+
+.Brambora {
+  background-color: #d4905d;
+}
+
+.Lucerna {
+  background-color: #ff8080;
+}
+
+.Prohra {
+  background-color: #666666;
+}
+
+.form {
+  font-size: 200%;
+}
+
+.odpocet {
+  color: #f4ddba;
+  font-style: oblique;
+  font-family: "Quintessential", serif;
+  text-align: center;
+  font-size: 130%;
+}
+
+.Authors {
+  color: purple;
+}
