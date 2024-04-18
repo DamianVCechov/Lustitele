@@ -1,4 +1,5 @@
 <?php
+	$hlavicka = FALSE;
 	date_default_timezone_set("Europe/Prague");
 	$osmnact = date_create("18:00:00")->format("H:i:s");
 	$pocatek = date_create("2022-01-15");
@@ -20,7 +21,7 @@
 
         echo "<table id=\"Prubezna\">\n\t<caption>" . $diff->format("%a") . ". Aktuální průběh</caption>\n\t\t<thead>\n\t\t<tr>\n\t\t    <th>Metál</th>\n\t\t    <th>Nick</th>\n\t\t    <th>Čas</th>\n\t\t    <th>Řádky</th>\n\t\t    <th></th>\n\t\t    <th>Výsledek</th>\n\t\t</tr>\n\t\t</thead>\n\t\t<tbody>";
 
-	$file = fopen("https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pub?gid=276973666&single=true&output=csv", "r");
+	$file = fopen("https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pub?gid=2033280855&single=true&output=csv", "r");
 
 	tisktabulky($file);
 
@@ -28,7 +29,6 @@
 
 function tisktabulky($file) {
 	  while (($data = fgetcsv($file, 1000, ",")) !== FALSE) {
-
 		if (in_array("PROHRA", $data)) { 
 			if (in_array("DamianVCechov", $data)) {
 				echo "\n\t\t<tr class=\"Prohra Authors\">"; 
@@ -93,6 +93,23 @@ function tisktabulky($file) {
 			}
 			else {
 				echo "\n\t\t<tr class=\"Lucerna\">";
+			}
+		}
+		elseif (in_array("✗", $data)) {
+			if (in_array("DamianVCechov", $data)) {
+				echo "\n\t\t<tr class=\"Deravahlava Authors\">"; 
+			}
+			elseif (in_array("NocniDuha", $data)) {
+				echo "\n\t\t<tr class=\"Deravahlava Authors\">"; 
+			}
+			else {
+				if($hlavicka == FALSE) {
+			     		echo "\n\t\t<th class=\"HlavickauDeravych\">Hráči</th><th class=\"HlavickauDeravych\">kteří</th><th class=\"HlavickauDeravych\">nehráli</th><th class=\"HlavickauDeravych\">dle</th><th></th><th class=\"HlavickauDeravych\">výzvy</th><tr class=\"Deravahlava\">";
+					$hlavicka = TRUE;
+				}
+				else {
+					echo "\n\t\t<tr class=\"Deravahlava\">";
+				}
 			}
 		}
 		elseif (in_array("NocniDuha", $data)) {

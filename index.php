@@ -8,6 +8,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&family=Square+Peg&display=swap">
+		<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Quintessential&family=Square+Peg&display=swap" rel="stylesheet">		
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
 		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
@@ -29,23 +30,21 @@
 
 		<main class="main">
 
-			<div id="Menu"> <p>» Odkazy ZDE «</p>
+			<div id="Menu"> <p id="Button">» Zápis do tabulky a další ZDE «</p>
 			     <ul id="Odkazy">
-			       <li class="form"><a href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a></li><br>
-			       <li><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a></li><br>
-			       <li><a href="https://hadejslova.cz" target="_blank">Odkaz na samotnou hru</a></li>
+			       <a href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
+			       <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a>
+			       <a href="https://hadejslova.cz" target="_blank">Odkaz na samotnou hru</a>
 			     </ul>
 			</div>
 
-
-			
 	    		<div class="tabulky">
 				<?php include "php/tabulky.php"; ?>
 			</div>
 
 			<p class="odpocet">Uzávěrka denní hry za <span id='time'></span></p>
 
-			<p id="poznamka"> Místo pro vybrané poznámky a citace nejen @PolulinaP ;-) </p>
+			<p id="Poznamka"> Místo pro vybrané poznámky a citace nejen @PolulinaP ;-) </p>
 
 		</main>
 
@@ -62,6 +61,7 @@
 					</a>
 					</p>
 		-->
+
 		</footer>
 	<script src="js/countdown.js"></script>
 	<script src="js/menu.js"></script>

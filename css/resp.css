@@ -1,5 +1,11 @@
 /* nastaveni pro sirku  minimalne 900 px */
 @media screen and (min-width: 900px) {
+  /* Sirka tlacitek v menu a sirka poznamky */
+  #Menu, #Button, #Poznamka {
+    width: 45vw;
+  }
+  
+  /* Tabulka */
   table {
     font-size: 16px;
     height: fit-content;
@@ -20,38 +26,50 @@
   #Prubezna {
     margin-left: 20px;
   }
-  
+
+  /* Footer */ 
   .footer {
     margin-top: auto;
   }
+
 }
 
 /* nastaveni pro sirku maximalne 899px */
 @media screen and (max-width: 899px) {
+  /* zmena sirky tlacitek v menu*/
+  ul a {
+    width: 80vw;
+  }
+
+  /* Tabulky */
   table {
-  width: 85vW;
-  font-size: 14px;
-}
+    width: 85vW;
+    font-size: 14px;
+  }
 
   caption {
     font-size: 20px;
   }
 
-.tabulky {
+  .tabulky {
    flex-direction: column;
-}
+   align-items: center;
+  }
 
   #Prubezna {
     margin-top: 20px;
   }
 
-  p, .footer {
+  /*Footer*/
+  .footer {
     font-size: 16px;
   }
+  
 }
 
 @media screen and (max-width: 500px) {
-    table {
+  /*Tabulky*/  
+  table {
       width: 90vw;
     }
 }

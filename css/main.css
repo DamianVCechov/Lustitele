@@ -45,6 +45,26 @@ p {
   text-align: center;
 }
 
+b, br {
+  display: none;
+}
+
+#Poznamka {
+  width: 90vw;
+  background: #4a1180;
+  border: 5px solid #781bcf;
+  border-radius: 30px;
+  font-family: "Parisienne", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  margin: 25px auto 25px auto;
+  }
+
+#Poznamka:hover {
+  filter: brightness(180%);
+}
+
 /* Formatovani tabulek */ 
 caption {
   color: #f4ddba;
@@ -79,17 +99,32 @@ tbody tr:hover {
    background-color: #9bdafa;
    filter: brightness(150%);
 }
-/*
-td:nth-child(2) {
-   font-style: oblique;
-}*/
 
-td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+.HlavickauDeravych {
+   background-color: black;
+   color: #f4ddba;
+   font-family: "Quintessential", serif;
+   font-style: oblique;
+}
+
+/* Středeční check marks */
+th:nth-child(5) {
+   display: none;
+} 
+
+td:nth-child(5) {
+   display: none;
+}
+
+
+td:nth-child(1), td:nth-child(3), td:nth-child(4), td:nth-child(6) {
    color: black;
+   text-shadow: none;
 }
 
 /* Zmena barvy odkazu */
 a:link {
+   text-decoration:none;
    color: cyan;
    text-align: center;
 }
@@ -104,19 +139,51 @@ a:hover {
 
 /* Ovládání menu odkazů*/
 
-#Menu  > p {
-   font-size: 150%;
+#Menu {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 25px auto 0px auto;
+}
+
+#Button {
+  width: 350px;
+  font-size: 25px;
+  width: 90vw;
+  background: black;
+  padding: 10px 0px 10px 0px;
+  border: 2px solid cyan;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#Button:hover {
+  filter: brightness(180%);
+  background-color: cyan;
 }
 
 #Odkazy {
-   display: none;
-   text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
 }
 
-li {
-   list-style-type: none;
+ul a {
+  width: 50vw;
+  padding: 0px;
+  border: 2px solid cyan;
+  border-radius: 30px;
+  margin: 0px;
 }
 
+ul a:hover {
+   color: black;
+   background-color: cyan;
+}
 
 .Zlato {
    background-color: #ffcc66;
@@ -145,6 +212,10 @@ li {
   background-color: #666666;
 }
 
+.Deravahlava {
+  background-color: #7979d2;
+}
+
 .form {
   font-size: 200%;
 }
@@ -158,5 +229,6 @@ li {
 }
 
 .Authors {
-  color: purple;
+  color: purple; 
+  text-shadow: 1px 1px 1px black;
 }
