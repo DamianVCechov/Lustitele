@@ -153,14 +153,15 @@ a:hover {
   width: 90vw;
   background: black;
   padding: 10px 0px 10px 0px;
-  border: 2px solid cyan;
+  border: 2px solid #f4ddba;
   border-radius: 30px;
   text-align: center;
 }
 
 #Button:hover {
   filter: brightness(180%);
-  background-color: cyan;
+  background-color: #f4ddba;
+  color: black;
 }
 
 #Odkazy {
@@ -178,6 +179,7 @@ ul a {
   border: 2px solid cyan;
   border-radius: 30px;
   margin: 0px;
+  text-align: center;
 }
 
 ul a:hover {

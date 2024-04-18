@@ -30,7 +30,7 @@
 
 		<main class="main">
 
-			<div id="Menu"> <p id="Button">» Zápis do tabulky a další ZDE «</p>
+			<div id="Menu"> <p id="Button">» Zápis a ostatní «</p>
 			     <ul id="Odkazy">
 			       <a href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
 			       <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a>
