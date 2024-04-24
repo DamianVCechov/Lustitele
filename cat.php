@@ -20,6 +20,7 @@
 		<meta name="theme-color" content="#00000000">
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/resp.css" rel="stylesheet">
+		<link href="css/cat.css" rel="stylesheet">
 	</head>
 
 	<body class="content">
@@ -46,6 +47,14 @@
 
 			<div id="Poznamka"> <?php include "php/note.php"; ?> </div>
 
+    		<div id="marco">
+   			<div id="cielo"></div>
+			<div id="luna"></div>
+			<div id="gato"></div>
+			<div id="muro"></div>
+			<div id="edificios"></div>
+		</div>
+
 		</main>
 
 		<footer class="footer"> <p>Sestavili pro Vás</p>
@@ -53,7 +62,7 @@
 					 a
 					<a href="https://x.com/DamianVCechov" alt="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
 					<p>&copy; <?php echo date("Y");?></p>
-					<p><a href="mailto:damian@lustitele.chytrak.cz?subject=Ahoj Damiane, máš pěkné tabulky">E-mail</a></p>
+<p><a href="mailto:damian@lustitele.chytrak.cz?subject=Ahoj Damiane, máš pěkné tabulky">E-mail</a></p>
 
 		<!-- Počítadlo přístupů, jednoduché, každé načtení stránky
 					<p>
@@ -62,7 +71,6 @@
 					</a>
 					</p>
 		-->
-
 		</footer>
 	<script src="js/countdown.js"></script>
 	<script src="js/menu.js"></script>

@@ -66,14 +66,7 @@
 		</footer>
 	<script src="js/countdown.js"></script>
 	<script src="js/menu.js"></script>
-	<?PHP 
-		$tedden = date_create()->format("w");
-		$tedcas = date_create()->format("H:i:s");
-		$osmnact = date_create("18:00:00")->format("H:i:s");
-		if ((($tedden == 3) && ($tedcas > $osmnact)) || (($tedden == 4) && ($tedcas < $osmnact))) {
-			echo "<script src=\"https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js\"></script>";
-			echo "<script src=\"js/streda.js\"></script>";
-		}
-	?>
+	<script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>;
+	<script src="js/streda.js"></script>;
 	</body>
 </html>

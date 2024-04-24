@@ -22,8 +22,19 @@
 		<link href="css/resp.css" rel="stylesheet">
 	</head>
 
+	<style>
+		* {
+			margin: 0;
+			overflow: hidden;
+		}
+	</style>
+	<script src="js/matrixrain.js"></script>
+	
 	<body class="content">
-		<header id="header">
+		<canvas id="canvas">
+		<script src="js/matrixset.js"></script>
+
+		<header class="header">
 			<h1>Nejlepší tabulky ve vesmíru</h1>
 			<h2>a přilehlých dimenzích</h2>
 		</header>
@@ -64,8 +75,17 @@
 		-->
 
 		</footer>
+		</canvas>
 	<script src="js/countdown.js"></script>
 	<script src="js/menu.js"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-46156385-1', 'cssscript.com');
+		ga('send', 'pageview');
+	</script>
 	<?PHP 
 		$tedden = date_create()->format("w");
 		$tedcas = date_create()->format("H:i:s");

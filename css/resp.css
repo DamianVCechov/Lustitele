@@ -37,8 +37,13 @@
 /* nastaveni pro sirku maximalne 899px */
 @media screen and (max-width: 899px) {
   /* zmena sirky tlacitek v menu*/
-  ul a {
+  #Menu, #Button {
+    width: 95vw;
+  }
+
+  .ButtonSmall {
     width: 80vw;
+    font-size: 16px;
   }
 
   /* Tabulky */
