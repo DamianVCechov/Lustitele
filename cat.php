@@ -32,11 +32,15 @@
 		<main class="main">
 
 			<div id="Menu"> <p id="Button">» Zápis a ostatní «</p>
-			     <ul id="Odkazy">
-			       <a class="ButtonSmall" href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
-			       <a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a>
-			       <a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Odkaz na samotnou hru</a>
-			     </ul>
+				<ul id="Odkazy">
+					<a class="ButtonSmall" href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
+					<a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Odkaz na HadejSlova.cz</a>
+					<a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a>
+					<a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1741131929&single=true" target="_blank">Statistika hráčů</a>
+					<a class="ButtonSmallNew" href="./sifry.php">Libri-Šifry</a>
+					<a class="ButtonSmall" href="https://x.com/Lustitele" target="_blank">Luštitelé na Twitteru</a>
+				</ul>
+				
 			</div>
 
 	    		<div class="tabulky">
@@ -61,7 +65,7 @@
 					<p><a href="https://x.com/NocniDuha" alt="Vždy úžasná a úchvatná" target="_blank" >Noční Duha</a>
 					 a
 					<a href="https://x.com/DamianVCechov" alt="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
-					<p>&copy; <?php echo date("Y");?></p>
+					<p>&copy; <?php echo "2024 - " . date("Y");?></p>
 <p><a href="mailto:damian@lustitele.chytrak.cz?subject=Ahoj Damiane, máš pěkné tabulky">E-mail</a></p>
 
 		<!-- Počítadlo přístupů, jednoduché, každé načtení stránky

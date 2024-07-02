@@ -33,19 +33,17 @@
 			<div id="Menu"> <p id="Button">» Zápis a ostatní «</p>
 			     <ul id="Odkazy">
 			       <a class="ButtonSmall" href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
-			       <a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a>
-			       <a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Odkaz na samotnou hru</a>
 			     </ul>
 			</div>
-
+<!--
 	    		<div class="tabulky">
-				<?php include "php/tabulky.php"; ?>
+				<?php // include "php/tabulky.php"; ?>
 			</div>
 
 			<p class="odpocet">Uzávěrka denní hry za <span id='time'></span></p>
 
-			<div id="Poznamka"> <?php include "php/note.php"; ?> </div>
-
+			<div id="Poznamka"> <?php // include "php/note.php"; ?> </div>
+-->
 		</main>
 
 		<footer class="footer"> <p>Sestavili pro Vás</p>
@@ -66,7 +64,7 @@
 		</footer>
 	<script src="js/countdown.js"></script>
 	<script src="js/menu.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>;
-	<script src="js/streda.js"></script>;
+	<script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>
+	<script src="js/streda.js"></script>
 	</body>
 </html>

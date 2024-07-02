@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Annoying Cat",
+  "version": "1.0",
+  "description": "Annoys you.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/annoying-cat.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

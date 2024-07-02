@@ -46,6 +46,18 @@
     font-size: 16px;
   }
 
+  .ButtonSmallNew {
+    width: 80vw;
+    font-size: 16px;
+  }
+
+  .ServisniTlacitka {
+    width: 80vw;
+    font-size: 16px;
+  }
+
+
+
   /* Tabulky */
   table {
     width: 85vW;

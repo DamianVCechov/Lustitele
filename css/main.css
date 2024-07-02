@@ -1,4 +1,6 @@
 ﻿body {
+   background-image: url("../themes/night-sky.jpg");
+   background-size: cover;
    width: 95vw;
    background-color: black;
    color: #f4ddba;
@@ -42,6 +44,14 @@ h1, h2 {
   text-align: center;
   margin: 0px;
   font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  text-align: center;
+  margin: 0px;
+  font-family: "Comfortaa", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -110,25 +120,26 @@ tbody tr:hover {
    filter: brightness(150%);
 }
 
-.HlavickauDeravych {
+.Hlavicka {
    background-color: black;
    color: #f4ddba;
    font-family: "Quintessential", serif;
    font-style: oblique;
 }
 
-/* Středeční check marks a sekundy*/
-th:nth-child(5), th:nth-child(7) {
+/* Středeční check marks a sekundy */
+th:nth-child(5), th:nth-child(6), th:nth-child(8) {
    display: none;
 } 
 
-td:nth-child(5), td:nth-child(7) {
+td:nth-child(5), td:nth-child(6), td:nth-child(8) {
    display: none;
 }
 
 
 
-td:nth-child(1), td:nth-child(3), td:nth-child(4), td:nth-child(6) {
+td:nth-child(1), td:nth-child(3), td:nth-child(4), td:nth-child(7) {
+   text-decoration:none;
    color: black;
    text-shadow: none;
 }
@@ -157,6 +168,7 @@ footer a:hover {
    justify-content: center;
    align-items: center;
    margin: 25px auto 0px auto;
+   z-index:20;
 }
 
 #Button {
@@ -167,6 +179,7 @@ footer a:hover {
   border-radius: 30px;
   text-align: center;
   margin-bottom: 0px;
+  z-index:20;
 }
 
 #Button:hover {
@@ -199,9 +212,28 @@ footer a:hover {
   color: #f4ddba;
   text-decoration: none;
   background-color: black;
+  z-index:21;
+}
+
+.ButtonSmallNew  {
+  width: 40vw;
+  padding: 10px;
+  border: 2px solid #f4ddba;
+  border-radius: 30px;
+  margin: 3px;
+  color: #f4ddba;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px black;
+  background-color: #660000;
+  z-index:21;
 }
 
 .ButtonSmall:hover {
+   color: black;
+   background-color: #f4ddba;
+}
+
+.ButtonSmallNew:hover {
    color: black;
    background-color: #f4ddba;
 }
@@ -252,8 +284,70 @@ footer a:hover {
 .Remove {
   display: none;
 }
+/* Malé grafy u jmen*/
+#thumbwrap {
+	position:relative;
+	text-decoration: none;
+	color: black;
+	z-index:17;
+}
 
-.Authors {
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+	text-decoration: none;
+	color: black;
+	z-index:17;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0;
+	left:140px; 
+	text-decoration: none;
+	color: black;
+ 	filter: brightness(90%);
+	z-index:19;
+}
+
+a.thumb:link {
+   text-decoration:none;
+   color: black;
+   z-index:16;
+
+}
+
+a.thumb:visited {
+   text-decoration:none;
+   color: black;
+   z-index:16;
+
+}
+
+#Damian {
   color: purple; 
   text-shadow: 1px 1px 1px black;
 }
+
+#Duha {
+  color: purple; 
+  text-shadow: 1px 1px 1px black;
+}
+
+.ServisniTlacitka {
+  display: flex;
+  width: 40vw;
+  padding: 10px;
+  border: 2px solid #f4ddba;
+  border-radius: 30px;
+  margin: 3px;
+  color: #f4ddba;
+  text-decoration: none;
+  background-color: black;
+  font-family:"Comfortaa";
+}
+
+.ServisniTlacitka:hover {
+   color: black;
+   background-color: #f4ddba;
+}
+

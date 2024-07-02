@@ -1,0 +1,44 @@
+@media screen and (min-width: 900px) {
+       body {
+              width: 99vw;
+              font-size: 20px;
+       }
+       
+       #karta {
+                width: 45vw;
+                padding: 25px;
+       }
+
+       #img {
+              width: 40vw;
+       }
+
+       #prev, #next {
+              height: 5vh;
+       }
+
+       #footer {
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+       }
+
+
+       #footer>p {
+               margin: 0px 5px 0px 5px;
+               flex-grow: 1;
+               text-align: center;
+       }
+
+       #footer>p:nth-child(2), #footer>p:nth-child(3){
+                width: 45%;
+       }
+
+}
+
+@media screen and (orientation: landscape) {
+  #img {
+    width: auto;
+    height: 45vh;
+  }
+}

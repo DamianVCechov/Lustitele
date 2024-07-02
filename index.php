@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="cs" prefix="og: http://ogp.me/ns#">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> Naprosto nejúžasnější tabulky </title>
+		<meta property="og:title" content="Luštitelé a Tabulky... a jste zas o krok chytřejší">
+		<meta name="description" lang="cs" content="Naprosto nejúžasnější tabulky ve vesmíru a přilehlých dimennzích pro HadejSlova.cz na Twitteru">
+		<meta property="og:description" content="Naprosto nejúžasnější tabulky ve vesmíru a přilehlých dimennzích pro HadejSlova.cz na Twitteru">
+		<meta name="keywords" lang="cs" content="tabulky, twitter, srovnávání, hadejslova, hadejslova.cz, damianvcechov, nocniduha, Damian Čechov, Noční Duha">
+		<meta property="cXenseParse:image" content="/icon/android-chrome-512x512.png">
+		<link rel="preload" href="/icon/android-chrome-512x512.png" as="image">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="lustitele.chytrak.cz">
+		<meta property="og:url" content="https://lustitele.chytrak.cz">
+		<meta property="article:author" content="https://www.x.com/DamianVCechov">
+		<link rel="previewimage" href="/icon/preview.png">
+		<meta property="og:image" content="/icon/preview.png">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:tittle" content="Luštitelé a Tabulky ... a jste zas o krok chytřejší">
+		<meta name="twitter:site" content="@Lustitele">
+		<meta name="twitter:creator" content="@Lustitele">
+		<meta name="twitter:image" content="https://lustitele.chytrak.cz/icon/preview.png">
+		<meta name="twitter:description" content="Naprosto nejúžasnější tabulky ve vesmíru a přilehlých dimenzích pro HadejSlova.cz na Twitteru">
+		<meta name="twitter:site_name" content="Luštitelské Tabulky">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&family=Square+Peg&display=swap">
@@ -32,9 +51,12 @@
 
 			<div id="Menu"> <p id="Button">» Zápis a ostatní «</p>
 			     <ul id="Odkazy">
-			       <a class="ButtonSmall" href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
-			       <a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1777722181&single=true" target="_blank">Kompletní archiv našich her</a>
-			       <a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Odkaz na samotnou hru</a>
+				<a class="ButtonSmall" href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
+				<a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Hra HadejSlova.cz</a>
+				<a class="ButtonSmallNew" href="./sifry.php">Libri-Šifry</a>
+				<a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1572940961&single=false" target="_blank">Statistika hráčů</a>
+				<a class="ButtonSmall" href="https://x.com/Lustitele" target="_blank">Luštitelé na Twitteru</a>
+				<a class="ButtonSmall" href="./servis.php" target="_blank">Servisní přístup</a>
 			     </ul>
 			</div>
 
@@ -52,7 +74,7 @@
 					<p><a href="https://x.com/NocniDuha" alt="Vždy úžasná a úchvatná" target="_blank" >Noční Duha</a>
 					 a
 					<a href="https://x.com/DamianVCechov" alt="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
-					<p>&copy; <?php echo date("Y");?></p>
+					<p>&copy; <?php echo "2024 - " . date("Y");?></p>
 					<p><a href="mailto:damian@lustitele.chytrak.cz?subject=Ahoj Damiane, máš pěkné tabulky">E-mail</a></p>
 
 		<!-- Počítadlo přístupů, jednoduché, každé načtení stránky
