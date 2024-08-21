@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta http-equiv="refresh" content="600">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> Naprosto nejúžasnější tabulky </title>
 		<meta property="og:title" content="Luštitelé a Tabulky... a jste zas o krok chytřejší">
@@ -24,11 +25,6 @@
 		<meta name="twitter:image" content="https://lustitele.chytrak.cz/icon/preview.png">
 		<meta name="twitter:description" content="Naprosto nejúžasnější tabulky ve vesmíru a přilehlých dimenzích pro HadejSlova.cz na Twitteru">
 		<meta name="twitter:site_name" content="Luštitelské Tabulky">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&family=Square+Peg&display=swap">
-		<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Quintessential&family=Square+Peg&display=swap" rel="stylesheet">		
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
 		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
@@ -49,15 +45,17 @@
 
 		<main class="main">
 
-			<div id="Menu"> <p id="Button">» Zápis a ostatní «</p>
-			     <ul id="Odkazy">
-				<a class="ButtonSmall" href="https://forms.gle/nsDMh1ErDsF9XVRw9" target="_blank">»Formulář na zápis«</a>
-				<a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Hra HadejSlova.cz</a>
-				<a class="ButtonSmallNew" href="./sifry.php">Libri-Šifry</a>
-				<a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vToV34_gwHD3PD_sHW_4dbX6kP7RhWDNa4hpImAk_hzDmWkCiRj_RIV_-Mmd9bzkD8pgn_SksY827i-/pubhtml?gid=1572940961&single=false" target="_blank">Statistika hráčů</a>
-				<a class="ButtonSmall" href="https://x.com/Lustitele" target="_blank">Luštitelé na Twitteru</a>
-				<a class="ButtonSmall" href="./servis.php" target="_blank">Servisní přístup</a>
-			     </ul>
+			<div id="Menu">
+				<p id="Button">» Menu «</p>
+			    	 <ul id="Odkazy">
+					<a class="ButtonSmall" href="./formular.php" target="_blank">»Formulář na zápis«</a>
+					<a class="ButtonSmall" href="./php/obnoveni.php">Zadal/a ses a nevidíš se? STISKNI TU!</a>
+					<a class="ButtonSmallNew" href="./sifry.php">Libri-Šifry</a>
+					<a class="ButtonSmall" href="https://hadejslova.cz" target="_blank">Hra HadejSlova.cz</a>
+					<a class="ButtonSmall" href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmOkJ8EwsJSzzNkeTEtSp-KVMNp0xl91Ed3q2rBEG3sV-3ITO20Nmu-67YUro2suStcMYr9YKWPO1L/pubhtml?gid=1572940961&single=false" target="_blank">Statistika hráčů</a>
+					<a class="ButtonSmall" href="https://x.com/Lustitele" target="_blank">Luštitelé na Twitteru</a>
+					<a class="ButtonSmall" href="./servis.php" target="_blank">Různé</a>
+			    	 </ul>
 			</div>
 
 	    		<div class="tabulky">
@@ -66,25 +64,18 @@
 
 			<p class="odpocet">Uzávěrka denní hry za <span id='time'></span></p>
 
-			<div id="Poznamka"> <?php include "php/note.php"; ?> </div>
-
+			<div id="Poznamka"><?php include "php/poznamky.php"; ?></div>
+			
 		</main>
 
-		<footer class="footer"> <p>Sestavili pro Vás</p>
-					<p><a href="https://x.com/NocniDuha" alt="Vždy úžasná a úchvatná" target="_blank" >Noční Duha</a>
+		<footer class="footer">
+					<p><?php # echo "Poslední aktualizace v: " . date("H:i:s d.m.Y", filemtime("php/prubezna.csv")); ?></p>
+					<p>Sestavili pro Vás</p>
+					<p><a href="https://x.com/NocniDuha" title="Vždy úžasná a úchvatná" target="_blank" >Noční Duha</a>
 					 a
-					<a href="https://x.com/DamianVCechov" alt="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
+					<a href="https://x.com/DamianVCechov" title="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
 					<p>&copy; <?php echo "2024 - " . date("Y");?></p>
 					<p><a href="mailto:damian@lustitele.chytrak.cz?subject=Ahoj Damiane, máš pěkné tabulky">E-mail</a></p>
-
-		<!-- Počítadlo přístupů, jednoduché, každé načtení stránky
-					<p>
-					<a href="http://www.web4u.cz/cs/pocitadlo" target="_blank">
-					<img src="http://www.web4u.cz/cs/pocitadlo/obrazek/name/Drban" alt="Pocitadlo Web4U.cz" />
-					</a>
-					</p>
-		-->
-
 		</footer>
 	<script src="js/countdown.js"></script>
 	<script src="js/menu.js"></script>

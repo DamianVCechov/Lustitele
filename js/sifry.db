@@ -18,7 +18,7 @@
    odpoved:"Blouznivci našich hor, Antal Stašek"},
 
    {dil:"12. díl",
-   tema:"Poznej báseň a básníka",
+   tema:"Poznej literární dílo",
    otazka:"Zástupci blanokřídlého hmyzu vydávají druh fonace, při kterém nedochází ke kmitu hlasivek, a tak nedochází k tvorbě základního tónu hlasu.",
    img:"",
    odpoved:"Šepot včel, Sofía Segovia"},
@@ -26,7 +26,7 @@
    {dil:"12. díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh3.googleusercontent.com/docsubipk/AP9E6xUiQ7bhwH1ZHtxDoXhaHJV6FjIveerJGKCAo3RiwnXgaSePwh6lbwMkKG3-pqngFsMEJA1j-G6Yf3D4Bdgdy-QWXfWkIvO0RfmgctWZKnV-CdBUaYI54_v-xCc4m2oF6wA4MDP9P09ycEL9pY-EF3VtCGLp3BzOK5TgcrGuXUR7rJ5LxCa_IBu0gY7G-GRm3aQYwurEUgxtAB5fWGB2ciLVshjTpY7s0lA4SeuS23ktFhdyJsc87Y6Qs-pf8wsUOVcCUdP7JE41UfZhxbvClX1CRI9ho_r0_MzBAV1cNz9cgVowWhfSg_yoaN3wE1VaQgWcXU6r1pNDnv2WkmHDBjplVVsc0hPjkAkz0nvyTlsDvnrIQ6OR_A=s335-w235-h335",
+   img:"./themes/libri/asp.jpg",
    odpoved:"A.S. Puškin"},
 
 
@@ -51,7 +51,7 @@
    {dil:"11. díl",
    tema:"Kdo je na obrázku",
    otazka:"",
-   img:"https://lh3.googleusercontent.com/docsubipk/AP9E6xVTNYbP3qV5a1dWoJSaBf4tAOIF5N053mzekSmBFshHrKsD0VF55e3Jsc3QlOZNYAMcp4ONsx4QMnYcFNrImuKhcEvUsuw0tnts-tF-MSZmdM_K6evL02x06tiSZr8Uoaa-W5gATDPqTg3XNzL3nqQtBPvPIkt7JzIwr5E3FLS0Ww6T2CKTBFTOIRv0fdOFqFbLEAIkgwahJWkYMoVAqihcvPuImNZp9ULT4pPZEkyIGkU-LiHd9OhwtQ=s335-w235-h335",
+   img:"./themes/libri/am.jpg",
    odpoved:"Alois Mrštík"},
 
 
@@ -68,7 +68,7 @@
    odpoved:"Nesnesitelná lehkost bytí, Milan Kundera"},
 
    {dil:"10. díl",
-   tema:"Poznej literární dílo II.",
+   tema:"Poznej literární dílo",
    otazka:"Fyzické osoby, které se ucházejí o nějakou funkci nebo poctu, se snaží získat to, co náleží k vnějšímu, tedy reálnému světu.",
    img:"",
    odpoved:"Kandidáti existence, Jakub Arbes"},
@@ -76,7 +76,7 @@
    {dil:"10. díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjhZ6ryZv8jTnGMS4c2Myg3bF33ytjnal7kuh3nnSVubwGfBjlUJfCDGZU4EfUD0mstVv1CGoojJ9nv7CZkf587D_cMS1rluc2s1cSimOL8n1wh1v5gh7CVCffavdAP9H1QNYwTNnQ28HspfHqEyq94TKlB_F5FxkQS8senA8qQfvuZlDgc28zZiOT3lhF5MwoYAB92yQjE2O99BBuFm7hgZ2RT5hUYSfCnirZVbQqhefFEypDx-gtPEVfnVnZJFJnF8OAni3PqB59F6wi32M9hAMkWtzm2ke10YFvd-kLev0s9IJddocQGBFdYv7Qz4IGbACtoAlTMJ1R8vEhCCjUzQ0_s0R2ZS_aPp5e8AeFWlYCsqOjO3_p42zougLavrUUqvY6NiaRTzzssqH_-WLhmo3FzRbSre7AXd3TwLdTTfOf38bsTzjpDXTxRSrZSyiJXo0OlMOftJvlp_R4w_cNcrwUGpdTIj95UvhuawpOr3iNcb1qh7C2YkAIVzomvMLbhat4KxTqGs7E6N4r1AQ3b9QN8fSYwbYFUp_60dOK1JHhoRDDmX_iJyTTv2xZySIiyLZL-3dcYOQ35Y39mLx6GVm6BtUdFDhigvYDacrXE6SBf1R4TsFwtsULa-LTUhcfkLJLIz_jC1atJe8Qv8mYxJVCnN69A3b6yWVbz79YLbeGxoS8Qh9FKMFkdfdd94GQbEkQLj9BYVAwusWXbC-WgSnRWtvQvGtwREvdnO6AxqCAfAj0KzXwQOK3cc4S6gpZ5dQ00Jh7875OdUIrkkH4E9Z9dDkU6HmK86FOkAvhJxi2sX66ELvJ94fYm4RlqrcgVMdjyOGFyHbMxnMwJGKvEZFG_VrWT7A23Z_sK3Yi9rXcsBnQVPMlECQ4m08PNYTRsn5ZbFv5Aa4joqu2eJxdQn9MsAuf_Tmtd0EQFQRDLDpfPc6piEAX0lSNBz57FugwF4IJFxX-w=w235-h272",
+   img:"./themes/libri/vw.jpg",
    odpoved:"Virginia Wolfová"},
 
 
@@ -89,7 +89,7 @@
    {dil:"9. díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjhY1D_CzKLCE1myoDcPBEF8Gq0w65HCERa1LziNzOkGbPVq8KahMKItHjIVw1YgycQcuIKuL8drA76GUPriawM8WyCqpzelx0lFBN6VtzpwGOu4iDZnd1zYRL8DZ7w3YbLcEspCG3iUD88MTwkEfvzukXLbyrN3yqG4clRXl9ezQgK3HFeDuIIVSBsBehM-7dgQbSkKUCYp1ukQQ--vx5q2sLfQ_fghsPvlSU6r3n3nRoyRlDQVD2lfsZKju_7asCDeAKJATb01qxNvChizADoDAkxrc9-47EO3a2z2Aamxt4aSkRprt3IZFkwoAcB704m4uu4bX3pQMcFVqVDJB92RirRFuu3LiEhu4iLm99ZCiTQGlzqBvia-DjpS-WwPySJxLO2UFx_rcEKCAUJl0mMS-GzZtPrZc0Tn71z-WQQsV7Y0CNabLAbrHQR2hqL44AYtzFhhVs0jPLT-oE--6PDxW6Q6v0X-4Dq0ovxrPdw3cxgRr3eyoykv2bHFXn5z52Tgv6lF4lAYuURr5KzhvqcpzawreiGtBd-i1P1BV4seV417u6f-pAWfz_C5DjRv9lGY6PfdzxuceKHm2usb1KTR7-wK45SdTua_pvWeAQG5OXv7HkIgGX5-ckXXiug7Nx_mBS3gBIK8H4DfcmLuztyJyI5vDwNwnhSaLdUtQoBsAUpVv-Ri_xyXGW5M6YCv7LbsyFnuzGTz-rOsRdCLSUNyyTitv83Yhe-cD-xM_Y9Hx-C51xMnnoDyGw2wg6f6XYsTbsP9zfOlU1O9_ZkTZLEWDUNqAcTNpmB8E6mZLi7aevecmPVIB0HHTshwJAXJAIrqINZK0-P8a2ioGrlz8Bjf1GcD5XUjoJV2UnNyb1uqxEf7G-JLM4LTtuoup8d7fzENs0Kfr2zEG65C9ThokIrEkU-SgyfBQrJDIr-4dQYr01GSWGuSWyCWHsS2x60VKfez6h7pa0w=w235-h188",
+   img:"./themes/libri/sb.jpg",
    odpoved:"Samuell Beckett"},
 
    {dil:"9. díl",
@@ -108,7 +108,7 @@
    {dil:"8. díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjhbEnzxgkAJd-4sTkSudXZCxN3wLxASNQRqGXEJklaOAB9cz8chDLAeA-kYYcXGY8t3pvlv_O9ScwfDI0wEvCz6iN-oI2kP4mGsAnl0tVDJuX3xMgrFjulybdBhKFUQ5Ob4mGwJPBKqaD58DCy6JWl4dHAj0DY0FxxqvPzhdxyMAkWeDVksupsmeo_vGJUoGvYW2TBB9xo4lAyvOgczbLli05HacvGYtn19RgbhFhnmhU8kyPl2NkzeCqL-CpDMA5FXuW5fpRN0ryndMofiOyQ8cwj7Q5ahjR2eXSQLGEjPUfy8uUzX6aZSdO5DOPKmWYPgA62TGKv93ofWycZfe08_zh6qNhYOz11XwfqfPBGSwH6iBZ-nKAkkqXKXqdTdYRbFJdGl2xdaeOIogXg_NfcD1f-fRJ3LoqXtwoAElSxNQTU6ETDsir8WqBqZPaCQJfPWOI3fc5Sw-ucG2quFO154jalgyHvGplwQb-PlDPEYxPhDC9EsC0Ntv1FGbnh5wsWutWHBKsrG2-bQnIrU_QcCZBqnYPNj4WzcpxZBz1kBo2A2GFd66tU_zTE2SHf67PZOOkrfHfaM6BK6ZG56sfEzm_fpJU5RhZfv3N3nr7-27KP7HNL8bKxTf4WoW8TG8de6KJFP-_zpKK5M53VDcPqYKcO6xRpEtXooFGJyUv9UhNklMTzpVZNQ72EQ8MSx8V0jTAJS5tOGJ6L2l0gAIRiZi5YVtlLqWNSxftffWEvoVw-O7vrlK2w0W8CXFUnDIBFf-6AakBRfImhPWFpAcrgKeTvyjMgqttLFXvlVk6o383FS8qUFHotp_PTpc1hSRZsBrbL7hSgCxqJkvhuHncBML2lJmQPbgkVfOgGNFGtjEiepbMlZ_7ZGWe3qWsSms5ZFUb6KjUW-JhAnmlOY7JUPf4mqabW8T2ZdJB_UKMuoZmMHvukaN0ydItP7WeRoGNEnQhoQk=w235-h388",
+   img:"./themes/libri/hdb.jpg",
    odpoved:"Honoré de Balzac"},
 
    {dil:"8. díl",
@@ -145,7 +145,7 @@
   {dil:"7.díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjhYbhjXp3DzWfIh6WLSKw137icU7qdguU5TQRGFKivmo4K7CcDpqTj75LXI0UHB-ctN5uGVAGpmAYrRlvPoAUJrswRRAZFTOcIRTC5q7fntwiyFz_Ka4V5RLmR4Gxm8Y5eD7fJv-Q9Sl4ulRDOPUZvvj6UzlkYGprWx5JI5GrlDkmvLevNCbtv4bDvBSqApxZe0619r0stGiwl41TrGiCFIPH3in2qpehl4LOvRPGOdJ6Tf8kEn5AvEF0ffADzX3WQOwRi6qaRWTgAZXsutgGCtNESkHnj6jIyghNaOU4iSnDXB5k2-xR7ltS23a511bQ-YDNlEVDtCZLVJNHLjs2BHcGHF6WwOsV_y_CLVLKO8U3Y92Q2GOQy4IzdeOjt84-0ar9Mb16doZn06nVbeP67gfanJU24Dp-ZZiKL6MbiaF34NIVvQOQy32SeFfW5jXqJL5zmb7zhtA-3BK5a1W_-fe2QNAk-YNZlu2tJe8Xv0uNW9a9x4DzM7l_R4VWI3Y96GFYGvBx3HHAkwLZXF-u6zHwrcFpqi-3Pdf3DdSTFiU-XNiC17pDl4HSY0lwu04iaWaje06xy8MAZ8RP_Ty2Q0OUxNkLZKNh4NBZDR5hmrWy4VvNUczwA2KBlI4X70x9Gdw5euv7e9in-Amb0qS7p12lzZ6kPcAyvrR9H0tNQvMPFmM6_vHQHSSq9Qz9eAuMCZEE180-K1QeeE0xTXa7mPE1REVpaTjhCnjF-rHJmJ2Sibf08UK9xg1RGo-HlgdeRG5j73j7Z1Tuwz8nXoHStPirUSm3bCe14BPlrNnKudzvoG-FCFuV5_G9xjWQfJu2rSOPM3_P5j1nx10A1Rg5sl_mNj6DxpX00H-at6yjkB7Tlx1W2KWJrvl9VfNXIxVv_tOjZpDmwKgOmPvgRU_yWYnA_H9iKveAOOs9mbAV5h0N61OM569ed4FVsw2E4H47liwnCrD5Q=w235-h188",
+   img:"./themes/libri/fgl.png",
    odpoved:"Federico García Lorca"},
 
 
@@ -170,7 +170,7 @@
   {dil:"6. díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjhZS6jGIkd8HoWLBPS_oDgyn-ImUF5ilJf6oFYQTQ92pGg5VUGRgkPxtujpAiNFb96jUVlUDicSmyWosglpve8Y_Nh0j1CUY2xbn24SDPQr9GIusfDbHNAYll2MuBLX7Zgb1Bv4amGGf04ynhnxrisXa2UkaPR8Aqnhv-2jMfRn5TCoMSMR1M0Lnax5B4E03s4XYfSVoHMcdC6_4NUkDnPS5h0FDTx1in7zw7HVzEYSM7IcTFyq4Nk7Uy8vHJzN7meR5E9_4kwhxfzh3u0SL-r2LIdK1EGj54wmmHaQCP7r6fDUv8RSriNnHxACBnOXnwvu6eqvc6Z-JAKBace2ZDaRZEvy4N0RLxth1f9F_FV2IQunZiw0t7U1J9hkR2NMTXTj7xX5fVUHRuQLwP2MWUDq5v9GX9sy2B0qRr8ocgdfV-vEAw3TCCS7W01JThMGSMmAM8t6W6-yoOsEIe_IFFoHnK4w-Z-2YJvYYibuaKYRZ0coxuhdne7UKGHbfG6CeSkMJiCedT0GufoBhMIJhyBdE8D3gCVC_rvEvRH-ZiuMIKeQhBlQZKllgwHfd-s4JbUFQ1rLhQt5B3OvOFEbUWVzsCzcgj72gudBMXzKk8oKIN5TriSNIudyTvZYbr5vzNafvq6KA5rZF2dvunMM10ufMPjt8ZGg7fRbS9HBuHSuyFXVRLF68wzkA2Tc-4UjtTVEOny8V6PRHPNCoByiUq-aK1Bei8jacIA2lebbM6JwVtt1ukp87ncTMzsWbLliD5ZHRWBypd1FlxKUD3GvNlD8mH5qyQcCBENz3m7MB-hTtZeiXSts_vtO1HchN9VSAzHT4H0rMpzf0y6gmlzcF-bFMs2AcQtYNUuxYRv84eI_0TYVl7YlYfm8tASbvdmr0tSSWuBJRhgenfIb1ntMrzQKojg99V5h6wdGcvvgyAgEHdzPEZYH-jHxh2dMf7mztIiImoQKttg=w235-h335",
+   img:"./themes/libri/adst.jpg",
    odpoved:"Alexander Dumas st."},
 
 
@@ -189,7 +189,7 @@
   {dil:"5. díl",
    tema:"Kdo je krasavec na fotce?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjha3mylrmoXvVkXFgC4nWrgwnND_0mxGI6PKGvt_4oUjpnMBxGIdiqCQiv2bIshQtUDwRDk4WcAit-E6sKnO3qWCkqwV1-WR41-ZiNd5RZVLx-YFdTUwM7eKdFhxareVzP1l_tskynx6LGJelI44_HrCGHyJY0dIQpwN0MeNDwD5KOyQTVM0OknCEHszxDUgiGUWPq-fpzNlz-pxgnPltJO6qUEo5MrX3nLk5N0uR8QGMq6z-7hRrTO-keRPIvXxtR9EQ-3VNPNQR_aOXl-vKCQ_ZzIytDVLZAYH7Lf-hVN78itBRm_BIiaxocqnq00UDheBOIY1Q7JU0RQ7dt99glEQstOQI5LxW1d_VJtM4ckKDl1SNEE4muBtpMizMuISwMrcmdC7jmwvLdWMHCotrJWS5V91V2r0us_FpTD2-9GOTnULNIZGZggdNqqwuWOfmZYTHsaqdPTXEzxvHxzcqsr7a2bFVASFUKKNcBRIQOTFJeo__aNpyVu_VuH_bWb4QLR2cx2bBPqJoqlD5O-w2X6mCTbHZ6-uvTwoYjfB7RM0jWlaiTWtpJCEnZnjOKt6BwYF6RmRoNzTAy3uO89Jqlov7qFdfyjaTpErtsRgEN55oC4LzAGwTMSopmfmBrV1mcrDb7D_NINcpYJiGRssoAwFcReyD_LKuVzCGbTZFNuwAEYVk9X7MlzmANLwVym4hjiolRGLT6380szqb6tDeQZ1sRbdfKdnahpWootlhWTcxA-rb8rZ61PxEOehJxr7dXHkXvOLVvnlReFLlqmxehOi85k8Ae5TvCcS6Z9lSlhQO33VirTV0DYb1WJQPihHEdzMDVUoG1luwybw1t8cGiXSkdBnZHLEEfw_8uNmzZqvlOSPfa0ChoeHt5_K5XkqdS435rBKUvpunjdstEEXvDJGLHNyIgywjyVZBrdDkmEWkRtjk3ffV06g_lg8CPVaFm8nk6xXIg=w235-h251",
+   img:"./themes/libri/acdjr.png",
    odpoved:"Arthur Conan Doyle jr."},
 
 
@@ -214,7 +214,7 @@
   {dil:"4. díl",
    tema:"Kdo je na obrázku?",
    otazka:"",
-   img:"https://lh7-us.googleusercontent.com/u/0/sheets/APBGjhbNv_CBuSe7Ja0YEyHIjibYh79tvD_x1iUumegmv8aRGDt-PjT9ecaKzvBXc9EacqHkcX-sZmBfXxV3IPV-MXAbQMPCpAlmwQC2CF9gBW1K5D2hgSn94PGvOp-E_81kRWtm22xEdRI6-VIi8OkfbBi45kd7Rox8MrF9rev3AAzWhjufc7mNg9JLf5YsuHOLXwVFLMQzYE6Wegam0cwZb5c4K5zoLRqW-eQ7diCsdKvaY80TnoDCsyseA-vm5GgJ4YvCzluFbO4Ch1V4xHjZLGqxO_a6aMe46gAY9CfWgcKyf3lIB_seJcm_yNl-CwGUgCDepH2c5t6W_SScJn1NR9pwOqvAkEJEtoWQ6ELT0qCKGsRsWoxFS2cDsn2b0Gqv1ZxKqHhvCdmsnVW-1WDIsF60CKsy-0QYTDg961z1rqBvQ8TTl1GzQ9K5i1pF1km1KGG813_7QOhc5TEUH_udkz6L-52pn2PektVnm5V9THMn1sb4sKVjS7-EugfqtKnKWiOwWM9ftV7890LvZPevD5_yLOjBCu7qcdE-4jUFbphpg9doNZfkhMRDQ6NxAt2ithC7xOmQxpa4S6pSCwJs6WyV46vqkt6ycwT27T6lKL8adx2Ia6BIQhBZtG55KoSIeydoZXlPGlBhq4iCxjtnX8t5GBms2F0r7-44UH8f4FIeXxITQknJLEOLulpaBwhg9YMKlNZWBv5nt-IeHUNUborN-YbotkDXahkdW70WHm-QD3EytGJmmmnili_4giLlzqqsah6npoHDOkST-cwPAwxzydkOEypQrvny6Hp7Ap5Pr-U_qlmQopuFcT6G802XWq_mBsgL6dUZLTlm9po3ySo2R8bFzqzlMva8JE1VEq-4BIkcVWhwcq5q8zJoa0svdYVC9mXJZNmnvwyeFi2gWtIjbD5zLVisRVMDkShmjJUZCXvLL8L-o52F79qEnyfYQW41KH-wZQ=w235-h335",
+   img:"./themes/libri/jk.jpg",
    odpoved:"Jack Kerouac"},
 
 

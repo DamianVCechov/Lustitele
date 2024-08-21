@@ -1,17 +1,33 @@
 ﻿body {
-   background-image: url("../themes/night-sky.jpg");
-   background-size: cover;
-   width: 95vw;
-   background-color: black;
-   color: #f4ddba;
+  background-image: url("../themes/night-sky.jpg");
+  background-size: cover;
+  width: 95vw;
+  background-color: black;
+  color: #f4ddba;
 }
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url(../themes/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Quintessential";
+  src: url(../themes/fonts/Quintessential/Quintessential-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Parisienne";
+  src: url(../themes/fonts/Parisienne/Parisienne-Regular.ttf);
+}
+
 
 /* Nastaveni flex */
 .content {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main, #header, .footer {
@@ -31,12 +47,12 @@
 
 /* Dalsi formatovani, hlavne textu */
 .footer {
-   text-align: center;
-   margin-top: 25px;
+  text-align: center;
+  margin-top: 25px;
 }
 
 .footer>* {
-   margin: 0px;
+  margin: 0px;
 }
 
 /* Nadpisy */
@@ -110,65 +126,84 @@ table {
   border-collapse: collapse;
 }
 
+tfoot th {
+  background-color: black;
+  color: #f4ddba;
+  border-collapse: collapse;
+  border-bottom: 5px solid transparent;
+}
+
+.foot {
+  border-collapse: collapse;
+}
+
+.footleft {
+  border-radius: 0px 0px 0px 25px;
+  border-collapse: collapse;
+}
+
+.footright {
+  border-radius: 0px 0px 25px 0px;
+  border-collapse: collapse;
+}
+
 tr {
   border-bottom: 1px solid black;
 }
 
 /* Zmena po najeti mysi */
 tbody tr:hover {
-   background-color: #9bdafa;
-   filter: brightness(150%);
+  background-color: #9bdafa;
+  filter: brightness(150%);
 }
 
 .Hlavicka {
-   background-color: black;
-   color: #f4ddba;
-   font-family: "Quintessential", serif;
-   font-style: oblique;
+  background-color: black;
+  color: #f4ddba;
+  font-family: "Quintessential", serif;
+  font-style: oblique;
 }
 
 /* Středeční check marks a sekundy */
-th:nth-child(5), th:nth-child(6), th:nth-child(8) {
-   display: none;
+th:nth-child(5) {
+  display: none;
 } 
 
-td:nth-child(5), td:nth-child(6), td:nth-child(8) {
-   display: none;
+td:nth-child(5) {
+  display: none;
 }
 
-
-
-td:nth-child(1), td:nth-child(3), td:nth-child(4), td:nth-child(7) {
-   text-decoration:none;
-   color: black;
-   text-shadow: none;
+td:nth-child(1), td:nth-child(3), td:nth-child(4) {
+  text-decoration:none;
+  color: black;
+  text-shadow: none;
 }
 
 /* Zmena barvy odkazu */
 
 footer a:link {
-   text-decoration:none;
-   color: cyan;
-   text-align: center;
+  text-decoration:none;
+  color: cyan;
+  text-align: center;
 }
 
 footer a:visited {
-   color: cyan;
+  color: cyan;
 }
 
 footer a:hover {
-   color: magenta;
+  color: magenta;
 }
 
 /* Ovládání menu odkazů*/
 
 #Menu {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   margin: 25px auto 0px auto;
-   z-index:20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto 0px auto;
+  z-index:20;
 }
 
 #Button {
@@ -229,28 +264,28 @@ footer a:hover {
 }
 
 .ButtonSmall:hover {
-   color: black;
-   background-color: #f4ddba;
+  color: black;
+  background-color: #f4ddba;
 }
 
 .ButtonSmallNew:hover {
-   color: black;
-   background-color: #f4ddba;
+  color: black;
+  background-color: #f4ddba;
 }
 
 .Zlato {
-   background-color: #ffcc66;
-   font-size: 115%;
+  background-color: #ffcc66;
+  font-size: 115%;
 }
 
 .Stribro {
-   background-color: #d1d1e0;
-   font-size: 110%; 
+  background-color: #d1d1e0;
+  font-size: 110%; 
 }
 
 .Bronz {
-   background-color: #ffbb99;
-   font-size: 105%; 
+  background-color: #ffbb99;
+  font-size: 105%; 
 }
 
 .Brambora {
@@ -265,12 +300,15 @@ footer a:hover {
   background-color: #666666;
 }
 
+.Unicorn {
+  background-color: #FF10F0;
+}
+
 .BezCasu {
   background-color: #66ccff;
 }
 
 .Deravahlava {
-/*  background-color: #7979d2; */
 }
 
 .odpocet {
@@ -284,43 +322,15 @@ footer a:hover {
 .Remove {
   display: none;
 }
-/* Malé grafy u jmen*/
-#thumbwrap {
-	position:relative;
-	text-decoration: none;
-	color: black;
-	z-index:17;
-}
-
-.thumb span { 
-	position:absolute;
-	visibility:hidden;
-	text-decoration: none;
-	color: black;
-	z-index:17;
-}
-.thumb:hover, .thumb:hover span { 
-	visibility:visible;
-	top:0;
-	left:140px; 
-	text-decoration: none;
-	color: black;
- 	filter: brightness(90%);
-	z-index:19;
-}
 
 a.thumb:link {
-   text-decoration:none;
-   color: black;
-   z-index:16;
-
+  text-decoration:none;
+  color: black;
 }
 
 a.thumb:visited {
-   text-decoration:none;
-   color: black;
-   z-index:16;
-
+  text-decoration:none;
+  color: black;
 }
 
 #Damian {
@@ -335,6 +345,10 @@ a.thumb:visited {
 
 .ServisniTlacitka {
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 40vw;
   padding: 10px;
   border: 2px solid #f4ddba;
@@ -347,7 +361,32 @@ a.thumb:visited {
 }
 
 .ServisniTlacitka:hover {
-   color: black;
-   background-color: #f4ddba;
+  color: black;
+  background-color: #f4ddba;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+iframe 
+{
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-Y: hidden;
+}
+
+.ServisUl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+  width: 95vw;
+  background-color: transparent;
 }
 

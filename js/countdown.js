@@ -1,6 +1,6 @@
 (function() {
   var start = new Date;
-  start.setHours(18, 0, 0); // 11pm
+  start.setHours(17, 55, 0);
 
   function pad(num) {
     return ("0" + parseInt(num)).substr(-2);

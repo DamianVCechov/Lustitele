@@ -1,7 +1,7 @@
 const myPopup = new Popup({
 	id: "my-popup",
 	title: "",
-	content: "<img style='width: 35vw; border-radius: 30px;' id='img' src=../php/vyzva.png>"
+	content: "<img style='width: 32vw; border-radius: 30px;' id='img' src=../php/vyzva.png>"
 
 
 /*	`jsou slova dnešní středeční výzvy

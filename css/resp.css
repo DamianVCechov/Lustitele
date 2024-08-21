@@ -32,6 +32,51 @@
     margin-top: auto;
   }
 
+  .container_form {
+    position: relative;
+    overflow: hidden;
+    width: 60vw;
+    height: 36vw;
+  }
+
+  .google-form {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container_game {
+    position: relative;  
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: center;
+    align-items: center;
+    overflow: hidden;
+    width: 32vw;
+    height: 32vw;
+    border: 5px solid #781bcf;
+    border-radius: 30px;
+  }
+
+  .container_tetris {
+    position: relative;  
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: center;
+    align-items: center;
+    overflow: hidden;
+    width: 46vw;
+    height: 41vw;
+    border: 5px solid #781bcf;
+    border-radius: 30px;
+  }
+
+  .game {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
 }
 
 /* nastaveni pro sirku maximalne 899px */
@@ -56,8 +101,6 @@
     font-size: 16px;
   }
 
-
-
   /* Tabulky */
   table {
     width: 85vW;
@@ -81,7 +124,46 @@
   .footer {
     font-size: 16px;
   }
-  
+
+  a.thumb:hover:after {
+    content:attr(title);
+    position: absolute;
+    background: black;
+    color: pink;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .container_form {
+    overflow: hidden;
+    width: 105vw;
+    height: 150vw;
+  }
+
+  .google-form {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container_game, .container_tetris {  
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 95vw;
+    height: 95vw;
+    border: 5px solid #781bcf;
+    border-radius: 30px;
+  }
+
+  .game {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
+
 }
 
 @media screen and (max-width: 500px) {

@@ -24,11 +24,6 @@
 		<meta name="twitter:image" content="https://lustitele.chytrak.cz/icon/android-chrome-512x512.png">
 		<meta name="twitter:description" content="Naprosto nejúžasnější tabulky ve vesmíru a přilehlých dimennzích pro HadejSlova.cz na Twitteru">
 		<meta name="twitter:site_name" content="Luštitelské Tabulky">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&family=Square+Peg&display=swap">
-		<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Quintessential&family=Square+Peg&display=swap" rel="stylesheet">		
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
 		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
@@ -43,25 +38,28 @@
 
 	<body class="content">
 		<header>
-			<h1>Servisní stránka</h1>
-			<h3>Tato stránka slouží ke snadnému spouštění skriptů, pokud selže automatika či Damian, rychlému testování a přístupu k logům.</h3>
-			<h3>Provádění skriptů může trvat i dvě minuty, kdy to vypadá, že se nic neděje. Neukončuj, prosím, a tu chvilku tomu věnuj.</h3> 
+			<h1>Různé</h1>
+			<h3>Zde mohou být různé testy, pokusy a zajímavosti související s tímto webem</h3>
 		</header>
 
 		<main>
-		<ul>
-		<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/php/tweet-rah1phaiquoh1phie9keicep.php">Složení a odeslání Tweetu okamžitě</a>
-		<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/test.php">Testovací stránka středečního banneru</a>
-		<a class="ServisniTlacitka" href="https://r6q8dty5.status.cron-job.org">Status stránka Cron-Job</a>
-		<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/cat.php">Kočičí verze tabulek</a>
-		<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/matrix.php">Matrix animace</a>
-		</ul>
+			<ul class="ServisUl">
+				<a class="ServisniTlacitka" href="https://docs.google.com/document/d/e/2PACX-1vQf5DO9OtTvaHHXDZkraB_JkuOvnpErqx6XjNnMHYTIvlQcQaHZay4379NFZQw3eohri3CXhnpiSXfD/pub">Plakát se středečními slovy</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/honza.php">Arkádová verze (PC zatím nutností)</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/ivar.php">Havraní verze (doporučuji PC)</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/unicorn.php">Jednorožčí verze</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/cat.php">Kočičí verze (doporučuji telefon)</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/freaky.php">Ovčí verze</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/zu.php">Žirafí verze (doporučuji PC)</a>
+				<a class="ServisniTlacitka" href="https://lustitele.chytrak.cz/matrix.php">Matrix animace</a>
+				<a class="ServisniTlacitka" href="https://r6q8dty5.status.cron-job.org">Status stránka Cron-Job</a>
+			</ul>
 		</main>
 
 		<footer class="footer"> <p>Sestavili pro Vás</p>
-					<p><a href="https://x.com/NocniDuha" alt="Vždy úžasná a úchvatná" target="_blank" >Noční Duha</a>
+					<p><a href="https://x.com/NocniDuha" title="Vždy úžasná a úchvatná" target="_blank" >Noční Duha</a>
 					 a
-					<a href="https://x.com/DamianVCechov" alt="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
+					<a href="https://x.com/DamianVCechov" title="Démonský a věčně zmatený" target="_blank" >Damian V. Čechov</a></p>
 					<p>&copy; <?php echo "2024 - " . date("Y");?></p>
 					<p><a href="mailto:damian@lustitele.chytrak.cz?subject=Ahoj Damiane, máš pěkné tabulky">E-mail</a></p>
 
