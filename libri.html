@@ -1,0 +1,102 @@
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Libri-Šifry </title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quintessential&family=Square+Peg&display=swap">
+		<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Quintessential&family=Square+Peg&display=swap" rel="stylesheet">		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+		<link rel="manifest" href="/icon/site.webmanifest">
+		<link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+		<meta name="theme-color" content="#00000000">
+		<link href="css/main.css" rel="stylesheet">
+		<link href="css/resp.css" rel="stylesheet">
+
+	     <style>
+	      body {
+		background-color: black;
+		}
+		.credit-card {
+			width: 300px;
+			height: 200px;
+			background-color: black;
+			color: white;
+			margin: 10px auto;
+			padding: 20px;
+			text-align: center;
+			cursor: pointer;
+			border: 2px solid white;
+			border-radius: 25px;
+			transition: transform 0.6s;
+			transform-style: preserve-3d;
+		}
+		.credit-card.flipped {
+			transform: rotateY(180deg);
+		}
+		.credit-card__face {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+		}
+		.credit-card__face--front {
+ 			background-color: transparent;
+			color: white;
+		}
+		.credit-card__face--back {
+			background-color: transparent;
+			color: yellow;
+			transform: rotateY(180deg);
+		}
+	    </style>
+	</head>
+
+<body>
+		<header id="header">
+			<h1>Libry-Šifry</h1>
+			<h2>Páti Bohony</h2>
+		</header>
+
+    <div class="credit-card" onclick="flipCard(0, this)">
+        <div class="credit-card__face credit-card__face--front">
+		<p id="1card">Z CYKLU NEVŠEDNÍ ÚMRTÍ Ve 48 si podřezal hrdlo a probodl srdce. KDO je to?</p>
+        </div>
+        <div class="credit-card__face credit-card__face--back">
+		<p>Vilém Mrštík</p> 
+        </div>
+    </div>
+    <div class="credit-card" onclick="flipCard(1, this)">
+        <div class="credit-card__face credit-card__face--front">
+            <p id="2card">Jako malá dívka zbožňovala domečky pro panenky. Dokázala je zařizovat pidi dekoracemi celé hodiny. Když vyrostla, zbožňovala domy, kupovala je, zařizovala vkusným nábytkem a mnoha dekoracemi. Mohla si to dovolit. KDO je to?</p>
+        </div>
+        <div class="credit-card__face credit-card__face--back">
+            <p>Agatha Christie</p>
+        </div>
+    </div>
+    <div class="credit-card" onclick="flipCard(2, this)">
+        <div class="credit-card__face credit-card__face--front">
+            <p id="3card">POZNEJ LITERÁRNÍ DÍLO
+Schopnost tělesa odrážet světlo se pojí s nedostatkem životních potřeb profesionálních společnic</p>
+        </div>
+        <div class="credit-card__face credit-card__face--back">
+            <p>Lesk a bída kurtizán</p>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(index, element) {
+            element.classList.toggle('flipped');
+        }
+    </script>
+
+</body>
+</html>
+
